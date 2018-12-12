@@ -1,0 +1,202 @@
+.at-nb-results {
+    padding: 20px 0!important;
+}
+
+/* .at-sidebar-container {flex: 1 1 45%!important;overflow: auto;} */
+
+table tr{
+/* display:block!important; */
+border-right: solid 1px black;
+}
+/* .at-chart-container {position: relative; flex: 1 1 55%;} */
+.at-layout-horizontal>:not(:first-child) {
+    margin-left: 2px!important;
+}
+.at-layout-vertical>:not(:first-child) {
+    margin-top: 0px!important;
+}
+
+.HkCon-Icon{
+    width:36px;
+    height:36px;  
+    border:solid transparent 2px;
+    margin:0 auto!important;
+  }
+  #Map .StateCon-Hold{
+visibility: hidden;
+  }
+
+  .HkCon-Combo{
+    /* padding-top:25px; */
+    height:56px;
+    margin:0 auto!important;    
+  }
+  .HkCon-Hk{height:55px;float:left;}
+  
+  .HkCon-State{
+    width:50px;
+    height:14px;
+    font-size:9px;
+    line-height:1.6em;
+    font-weight:bold;
+  }
+  .StateCon-MM{margin:0px;text-align:center;}
+  .StateCon-Cond{margin:0px;text-align:right;font-style:italic;}
+  .StateCon-Hold{margin:0px;text-align:center;}
+  
+  .HkCon-Plus{float:left;}
+  .Hk-Plus{  
+    font-size:23px;
+    font-weight:bold;
+    text-align:center;
+    padding-top:5px;
+  }
+  
+  .IconSize-Normal{font-size: 30px;padding: 3px;}
+  .IconSize-Medium{font-size: 33px;padding: 3px;}
+  
+  .hk{
+    box-shadow: 0px 0px 2px 2px #202020 inset;
+    border-radius: 4px;
+    padding:5px;
+    /* // margin:2px; */
+    text-align:right;
+    font-size: 10px;
+    font-weight: bold;          
+     margin:0 center!important;
+  }
+  .hk-kb{
+          width:26px;
+          height:26px;        
+  }
+  
+  
+  .hk-mb-g {
+      width: 14px;
+      height: 26px;
+      margin: 0 auto!important;
+      text-align: center;
+  }
+  
+
+
+table th:nth-child(1){width:100px;}
+
+
+table th:nth-child(2) {
+    width: 350px;
+    text-align: center;
+}
+
+tbody {background: #fffff4;}
+table tr:nth-child(even) {background-color:rgba(0, 0, 0, 0.06);}
+table tr:nth-child(odd) {background-color:rgba(0, 0, 0, 0.02);}
+
+
+
+.google-visualization-table-div-page {
+       margin-bottom: 20px!important;
+    
+}
+
+/* Table Header */
+.google-visualization-table-table .gradient, .google-visualization-table-div-page .gradient {
+    background: #3d405a !important;
+    color: #ffffff;
+    font-size: 16px!important;
+}
+
+/* td { border-bottom: solid 1px #898989!important;} */
+
+.google-visualization-table-table th, .google-visualization-table-table td {
+    border-style: none!important;        
+}
+
+.google-visualization-table-table td, .google-visualization-table-table th {   
+    border-bottom: solid #898989!important;
+    border-bottom-width: 1px!important;
+}
+
+table, th, td {
+    border: 1px solid black!important;
+    border-collapse: collapse!important;
+    text-align:center;
+}
+
+
+/* Hover*/
+.google-visualization-table-tr-over{background:rgba(200, 225, 255, 0.296)!important;}    
+/* Select */    
+    .google-visualization-table-tr-sel{background:rgba(200, 225, 255, 0.296)!important;}
+
+
+#myTable tr:nth-child(odd) {background: #f3f3ee;}
+#myTable tr:nth-child(even) {background: #e5e5e0;}
+#myTable th{background:#3c4f89;color:white;}
+#myTable {width:100%;}
+
+/* hk-kb*/
+.hk-kb-11 {Background:#d13a3b;        color:white;}        /*red*/
+.hk-kb-12 {Background:#b8b8b8;        color:white;}        /*light grey*/
+.hk-kb-13 {Background:#b8b8b8;        color:white;}        /*light grey*/
+.hk-kb-14 {Background:#b8b8b8;        color:white;}        /*light grey*/
+.hk-kb-15 {Background:#fff93e;        color:black;}        /*yellow*/
+.hk-kb-16 {Background:#202020;        color:white;}        /* black*/
+.hk-kb-17 {Background:#202020;        color:white;}        /* black*/
+.hk-kb-18 {Background:white;          color:black;}        /*white*/
+.hk-kb-21 {Background:#82828b;        color:white;}         /*dark grey*/
+.hk-kb-22 {Background:#82828b;        color:white;}        /*dark grey*/
+.hk-kb-23 {Background:#ff7f00;        color:white;}        /*orange*/
+.hk-kb-24 {Background:#827f68;        color:white;}        /*swamp*/
+.hk-kb-25 {Background:#5b8643;        color:white;}        /*Mossy*/
+.hk-kb-26 {Background:#673431;        color:white;}        /*dark red*/
+.hk-kb-27 {Background:#b8b8b8;        color:white;}        /*light grey*/
+.hk-kb-28 {Background:#202020;        color:white;}        /* black*/
+.hk-kb-31 {Background:#202020;        color:white;}        /* black*/
+.hk-kb-32 {Background:#a5e3c0;        color:black;}        /*green jade*/
+.hk-kb-33 {Background:#202020;        color:white;}        /*black*/
+.hk-kb-34 {Background:#202020;        color:white;}        /*black*/
+.hk-kb-35 {Background:#663399;        color:white;}        /*dark vio*/
+.hk-kb-36 {Background:#428dff;        color:black;}        /*sky blue*/
+.hk-kb-37 {Background:white;          color:black;}        /*white*/
+.hk-kb-38 {Background:#202020;        color:white;}         /* black*/
+.hk-kb-41 {Background:#595959;        color:white;}        /*special dark grey*/
+.hk-kb-42 {Background:#B2A1EA;        color:black;}        /*vio*/
+.hk-kb-43 {Background:#005284;        color:white;}        /*oceon*/
+.hk-kb-44 {Background:#fff93e;        color:black;}        /*yellow*/
+.hk-kb-45 {Background:#202020;        color:white;}        /*black*/
+.hk-kb-46 {Background:#ff7f00;        color:black;}        /*orange*/
+.hk-kb-47 {Background:#b8b8b8;        color:white;}        /*light grey*/
+.hk-kb-48 {Background:#80ff42;        color:black;}   /* Apple Green*/
+.hk-kb-51 {Background:white;          color:black;}        /*white*/
+.hk-kb-52 {Background:white;          color:black;}        /*white*/
+.hk-kb-53 {Background:white;          color:black;}        /*white*/
+.hk-kb-54 {Background:#82828b;        color:white;}        /*dark grey*/
+.hk-kb-55 {Background:#d13a3b;        color:white;}        /*red*/
+.hk-kb-56 {Background:#b8b8b8;        color:white;}        /*light grey*/
+.hk-kb-57 {Background:#b8b8b8;        color:white;}        /*light grey*/
+.hk-kb-58 {Background:#b8b8b8;        color:white;}   /*light grey*/
+.hk-kb-61 {Background:#82828b;        color:white;}        /*dark grey*/
+.hk-kb-62 {Background:#202020;        color:white;}        /* black*/
+.hk-kb-63 {Background:#202020;        color:white;}        /* black*/
+.hk-kb-64 {Background:#B2A1EA;        color:black;}        /*vio*/
+.hk-kb-65 {Background:#ff7f00;        color:black;}        /*orange*/
+.hk-kb-66 {Background:#80ff42;        color:black;}        /* Apple Green*/
+.hk-kb-67 {Background:#aedbf2;        color:black;}        /*baby blue*/
+.hk-kb-68 {Background:#202020;        color:white;}        /* black*/
+/* -------Mouse Button Logitech G400 Colors---------- */
+
+.hk-mb-g7 {Background: black;	color:white;}
+.hk-mb-g8 {Background: black;	color:white;}
+.hk-mb-g9 {Background: #d13a3b;	color:white;}
+.hk-mb-g10 {Background:#428dff;	color:black;}
+.hk-mb-g11 {Background:#80ff42;	color:black;}
+.hk-mb-g12 {Background:#663399;	color:white;}
+.hk-mb-g13 {Background:#ff7f00;	color:black;}
+.hk-mb-g14 {Background:#5b8643;	color:white;}
+.hk-mb-g15 {Background:#fff93e;	color:black;}
+.hk-mb-g16 {Background:#202020;	color:black;}
+.hk-mb-g17 {Background:#202020;	color:black;}
+.hk-mb-g18 {Background:white;   color:black;}
+.hk-mb-g19 {Background:#aedbf2;	color:black;}
+.hk-mb-g20 {Background:#82828b;	color:black;}
