@@ -12,3 +12,10 @@ function removeClass(key,e){
   var targetDiv = document.getElementById("Map").getElementsByClassName(activeKey);
   targetDiv[0].classList.remove(e);
 }
+
+
+function myFunction() {
+	var myVar="Hello World"	
+  
+  alert(myVar);
+}
