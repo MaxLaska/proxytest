@@ -200,3 +200,24 @@ table, th, td {
 .hk-mb-g18 {Background:white;   color:black;}
 .hk-mb-g19 {Background:#aedbf2;	color:black;}
 .hk-mb-g20 {Background:#82828b;	color:black;}
+
+
+
+div#sidebar p {
+    margin: 0;
+}
+div#moveMeIntoMain .show{
+    display:none;
+
+
+}
+
+div#main .show{
+    display:initial;
+
+
+}
+
+div#main p {
+    margin: 0;
+}
